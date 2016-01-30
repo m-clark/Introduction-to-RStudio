@@ -1,0 +1,17 @@
+introduction
+========================================================
+author:
+date:
+autosize: true
+
+First Slide
+========================================================
+
+Screw this noise
+
+sample chunk
+```{r}
+rnorm(5)
+```
+
+<span class="emph">test emph</span>

@@ -1,0 +1,126 @@
+---
+title: "Presentation Cheatsheet"
+output: html_document
+---
+
+# Slides general
+```{}
+Slide begin
+
+=============
+```
+
+
+don't display slide title
+
+`title: false`
+
+
+## Incremental display
+`incremental: true`
+
+on the title slide it sets the default behavior
+
+## Linking
+```{}
+Slide 1
+====================================
+id: slide1
+
+Slide 2
+====================================
+`[Go to slide 1](#/slide1)`
+```
+
+
+
+# Slide Types
+section, sub-section, prompt, and alert
+
+css class for slide
+
+`class: illustration`
+
+```{}
+custom type
+.exclaim .reveal .state-background {
+  background: black;
+} 
+
+.exclaim .reveal h1,
+.exclaim .reveal h2,
+.exclaim .reveal p {
+  color: white;
+}
+```
+
+
+
+Within slide
+
+`type: exclaim`
+
+# Two columns
+
+```{}
+Two-Column Slide
+====================================
+left: 70%
+
+First column
+***
+Second column
+```
+
+
+# Navigation
+On title slide put
+
+`navigation: `
+
+- none — no slide navigation is possible
+- section — users can navigate to sections only
+- slide — users can navigate to any slide
+
+
+# Transitions
+`transition: none`
+
+none linear rotate fade zoom concave
+
+default slow fast
+
+
+# Text
+Fonts
+```{}
+font-import: http://fonts.googleapis.com/css?family=Risque
+
+font-family: 'Risque'
+```
+
+
+\<small>This sentence will appear smaller.\</small>
+
+Default text color
+```{}
+.reveal section p {
+  color: blue;
+}
+```
+
+
+# Sourcing code
+```{}
+My Slide
+====================================
+`source: example.R`
+```
+
+You can also specify that a specific line of code be highlighted when the source file is opened. For example, to navigate to line 30 of a source file you'd use this sytnax:
+
+`source: example.R 30`
+
+You can also navigate to the first line that matches a regular expression, for example:
+
+`source: example.R /loading data/`
