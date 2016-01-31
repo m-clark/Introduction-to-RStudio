@@ -1,7 +1,7 @@
 Doing More with Rstudio
 ========================================================
 author:
-date: 2016-01-30
+date: 2016-01-31
 autosize: true
 transition: concave
 css: workshop.css
@@ -54,7 +54,7 @@ rnorm(5)
 ```
 
 ```
-[1] 2.0952154 1.3870387 0.1391313 0.6861011 0.3913451
+[1] -0.1893242 -0.9810313 -0.1837535  1.0672762 -1.3334995
 ```
 
 <span class="emph">test emph</span>
