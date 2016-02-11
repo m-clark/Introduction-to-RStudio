@@ -1,37 +1,67 @@
-scripting
+Scripting
 ========================================================
-author: 
-date: 
+author:
+date: 2016-02-09
 autosize: true
+transition: concave
+css: workshop.css
+font-family: 'Helvetica'
 
-First Slide
+Scripting
 ========================================================
 
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+Everyone uses Rstudio for easier scripting
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- Syntax highlighting
+- Autocomplete of object/function names, etc.
+- Autopairing of parenthesis, quotes etc.
+- Auto indent
 
-Slide With Code
+It even makes working at the console viable
+
+- Still not advised
+
+
+Must-use Keyboard shortcuts: standard scripts
 ========================================================
+Run current line: Ctrl+Entr
+
+Run up to/from current line: Ctrl+Alt+B/Ctrl+Alt+E
+
+Run everything: Ctrl+Shft+Entr
+
+
+
+Must-use Keyboard shortcuts: standard scripts
+========================================================
+Copy up/down: Ctrl+Shft+up/down
+
+Move up/down: Shft+up/down
+
+Select multiple lines: Ctrl+Alt+Click
+
+
+
+Snippets
+========================================================
+
+Snippets allow one to insert code of a certain form for certain commonly used functions.
+
+- For loops, apply family, etc.
+
+You only have to type the first couple letters, the form of the rest of the code will fill out, then you can tab your way through the rest of it.
 
 
 ```r
-summary(cars)
+name <- function(variables) {
+
+}
+
+for (variable in vector) {
+
+}
+
+apply(array, margin, ...)
 ```
 
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
 
-Slide With Plot
-========================================================
-
-![plot of chunk unnamed-chunk-2](scripting-figure/unnamed-chunk-2-1.png) 

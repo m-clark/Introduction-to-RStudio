@@ -1,7 +1,7 @@
 Overview
 ========================================================
 author:
-date: `r Sys.Date()`
+date: 2016-02-09
 autosize: true
 transition: concave
 css: workshop.css
