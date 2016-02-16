@@ -33,7 +33,7 @@ Outline
 
 ## Advanced
 - Other programming languages
-- Deubgging
+- Debugging
 - Package development
 
 Who this is for
