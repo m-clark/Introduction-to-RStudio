@@ -44,30 +44,8 @@ People who use Rstudio only for scripting purposes
 
 Possibly those who use the more powerful text editors and wonder what the fuss is about
 
-
-Overview
-========================================================
-type: prompt
-transition: fade
-
-Overview
-========================================================
-Screw this noise
-
-sample chunk
-```{r}
-rnorm(5)
+```{r child='overview.Rpres'}
+```
+```{r child='scripting.Rpres'}
 ```
 
-<span class="emph">test emph</span>
-<span class="pack">test pack</span>
-
-
-
-Scripting
-========================================================
-type: prompt
-transition: fade
-
-Scripting
-========================================================
