@@ -1,10 +1,13 @@
 ---
-title: "Version Control"
-output: 
-  ioslides_presentation: 
-    smaller: no
-    widescreen: yes
+title: "Version Control Reveal Test"
+output:
+  revealjs::revealjs_presentation:
+    transition: none
     css: csstestCSStherealCSSSERIOUSLY.css
+    reveal_options:
+      progress: false
+      previewLinks: true
+    
 ---
 
 ## Version Control
@@ -12,16 +15,14 @@ output:
 RStudio offers the ability to integrate version control into your project.
 
 >- Subversion
-
 >- Git
-
 >- Both are free and open
 
 ## Wait, Wait! What Is Version Control?
 
 At its most basic, it is just a way to manage changes.
 
-  - Documents, code, etc.
+- Documents, code, etc.
   
 Especially useful when collaborating.
 
@@ -40,16 +41,14 @@ Subversion (SVN) is "client-server" program.
 
 Git works on a distributed model
 
-  - Users create their own local repositories
+- Users create their own local repositories
   
 Created by the folks at Linux
   
 The Baskin Robbins of version control
 
 >- Bitbucket
-
 >- GitLab
-
 >- GitHub
 
 ## GitHub
@@ -59,9 +58,7 @@ GitHub is a web-based tool that allows you to upload your Git repository
 ## Process
 
 >- Commit
-
 >- Push into repository
-
 >- Pull from repository
 
 ##  The Shell
@@ -71,19 +68,12 @@ If you are committing, pushing, and pulling, then RStudio pretty much has you co
 If you need other things, RStudio will pull up the shell for you
   
 >- commit --amend - Redoing a commit
-
 >- branch - Create a new branch
-
 >- merge - Merges the current branch into the Master
-
 >- log (--oneline) - Shows all commits (in one line)
-
 >- tag - Label a branch as an important one
-
 >- rm - Remove a file
-
 >- stash -  Stash a file to avoid making changes when pulling
-
 >- blame - Find out who made changes to a file
 
 ## Lightning Demo

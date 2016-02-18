@@ -22,6 +22,11 @@ a {
   color: #ff5503;
 }
 
+.resize{
+  width: 400px;
+  height: auto;
+}
+
 
 pre {
   box-sizing: border-box;

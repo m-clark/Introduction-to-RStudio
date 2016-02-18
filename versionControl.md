@@ -1,7 +1,7 @@
 Version Control
 ========================================================
 author:
-date: 2016-02-10
+date: 2016-02-18
 autosize: true
 transition: linear
 transition-speed: fast
@@ -97,4 +97,4 @@ RStudio makes it easy to integrate version control into your project.
 
 You have nothing to lose by keeping track of files and the changes that have been made to them.
 
-This is especially useful when collaboratig.
+This is especially useful when collaborating.
