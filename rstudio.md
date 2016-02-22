@@ -1,7 +1,7 @@
 Doing More with Rstudio
 ========================================================
 author:
-date: 2016-02-14
+date: 2016-02-22
 autosize: true
 transition: concave
 css: workshop.css
@@ -33,7 +33,7 @@ Outline
 
 ## Advanced
 - Other programming languages
-- Debugging
+- Deubgging
 - Package development
 
 Who this is for
@@ -48,7 +48,7 @@ Possibly those who use the more powerful text editors and wonder what the fuss i
 Overview
 ========================================================
 author:
-date: 2016-02-14
+date: 2016-02-22
 autosize: true
 transition: concave
 css: workshop.css
