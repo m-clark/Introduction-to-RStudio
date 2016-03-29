@@ -1,0 +1,156 @@
+Addins
+========================================================
+type:prompt
+css: workshop.css
+
+========================================================
+
+
+R Studio allows its users to create functions that can be used within R Studio with a click or keystroke.
+
+These special functions are called addins.
+
+Addins are a great way to increase your productivity and efficiency when scripting.
+
+They can be anything, but the easiest (and perhaps most useful) example is text insertion/formatting.
+
+
+
+Creating Addins
+========================================================
+incremental: true
+
+Addins are nothing more than R functions that you can call interactively.
+
+```{r}
+insertMatrix = function() {
+  rstudioapi::insertText("[[Question:Matrix]]\n\n[[Choices]]\n\n[[Answers]]")
+}
+```
+
+```
+insertMatrix()
+
+[[Question:Matrix]]
+
+[[Choices]]
+
+[[Answers]]
+```
+
+
+Steps
+========================================================
+incremental: true
+
+To make addins available within your RStudio, you need to do the following:
+
+- Create an R package
+
+- Create R functions for the addins
+
+- Create a debian control file (.dcf) at a specific location
+
+
+Debian Control File?
+========================================================
+
+We do not need to worry about what exactly is happening with these.
+
+Just create the following folders and file:
+
+- ~/inst/rstudio/addins.dcf
+
+
+
+Register the Addins
+========================================================
+
+To include the addins in the .dcf, you need to include the following information:
+
+  - Name: What should appear as the addin name
+
+  - Description: A brief description
+
+  - Binding: The function name
+
+  - Interactive: Logical for interactivity
+
+
+An Example
+========================================================
+```
+Name: Insert [[Question:Matrix]]
+Description: Inserts a matrix question into the advanced format text file.
+Binding: insertMatrix
+Interactive: false
+```
+- You can include any number of addins within the file, just leave a blank line between each entry.
+
+
+Interactive
+========================================================
+We can use <span class="pack">shiny</span> to create interactive addins.
+
+- Just set interactive to true.
+
+The <span class="pack">addinexamples</span> package has a few good examples of interactive addins.
+
+
+R Package
+========================================================
+incremental: true
+
+Addins have to be put inside of an R package to function.
+
+- It could be a package with nothing but addins if you want.
+
+Once the addins are included, they will be there until you decide to remove them.
+
+- You do not need to do anything special to load the addins!
+
+Using 'rstudioapi'
+========================================================
+
+The <span class="pack">rstudioapi</span> package offers some functions to create addins.
+
+The <span class="func">insertText</span> function is one that you will probably use the most.
+
+- There are a few others that you might find useful:
+
+  - <span class="func">modifyRange</span> - does the same thing as <span class="func">insertText</span>, but over ranges.
+
+  - <span class="func">navigateToFile</span> - opens a file within RStudio (you can even specify the line)
+
+  - <span class="func">askForPassword</span> - requires the user to input a password
+
+Shortcuts
+========================================================
+Being able to interactively call functions is handy.
+
+To make the most out of the addins, you can assign each one a keyboard shortcut.
+
+- Addins > Browse Addins > Keyboard Shortcuts...
+
+You can set them to be whatever you want!
+
+
+
+"Gotcha's" and Tips
+========================================================
+
+Always make sure that the binding and the function name are the same.
+
+- You will get an error if there is not a match.
+
+Rebuild the package if you add more functions.
+
+It never hurts to restart your R session if you have multiple projects open.
+
+
+Quick Wrap
+========================================================
+
+RStudio addins can save you a lot of time on tasks that you frequently do.
+
+Like most things, a little initial work will yield massive time savings in the future.
