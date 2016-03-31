@@ -1,12 +1,7 @@
 Debugging
 ========================================================
-author:
-date: `r Sys.Date()`
-autosize: true
-transition: linear
-transition-speed: fast
+type:prompt
 css: workshop.css
-font-family: 'Helvetica'
 
 What is Debugging?
 ========================================================
@@ -112,22 +107,23 @@ wackyAvg(1, 2, 3, 4, 5, 6)
 
 Debug Mode Commands
 ========================================================
-incremental: true
 left: 50%
 
 There are commands that allow you to work through debugging:
 
-Next (n): runs the next line
+- Next (n): runs the next line
 
-Step into (s): if the next line is a new function, it enters into the function
+- Step into (s): if the next line is a new function, it enters into the function
 
-Finish (f): finishes the function
+  - Careful with this one; you can get pretty far into other functions
 
-Continue `(c)`: stops debugging and runs the function
-
-Stop (Q): stops debugging and does not run the function
+- Finish (f): finishes the function
 
 ***
+
+- Continue `(c)`: stops debugging and runs the function
+
+- Stop (Q): stops debugging and does not run the function
 
 Each of these also has a button in the debugging menu
 
