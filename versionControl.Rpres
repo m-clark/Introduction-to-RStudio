@@ -1,12 +1,7 @@
 Version Control
 ========================================================
-author:
-date: `r Sys.Date()`
-autosize: true
-transition: linear
-transition-speed: fast
+type:prompt
 css: workshop.css
-font-family: 'Helvetica'
 
 Overview
 ========================================================
@@ -60,7 +55,7 @@ GitHub
 
 GitHub is a web-based tool that allows you to upload your Git repository
 
-Process
+Process (Briefly)
 ========================================================
 incremental: true
 
@@ -68,7 +63,7 @@ incremental: true
   - Push into repository
   - Pull from repository
 
- The Shell
+The Shell
 ========================================================
 incremental: true
 
@@ -84,6 +79,23 @@ If you need other things, RStudio will pull up the shell for you:
   - rm - Remove a file
   - stash -  Stash a file to avoid making changes when pulling
   - blame - Find out who made changes to a file
+
+
+A Common Shell Use
+========================================================
+
+Sometimes, we create our local repository before creating our remote repository in GitHub
+
+  - Excitement often gets the best of us!
+
+If you want to push your local repository to a new remote repository, just use the following:
+
+```{engine = "bash", eval = FALSE,  }
+$ git remote add origin git@github.com:user--/repo.git
+
+$ git push origin master
+```
+
 
 Lightning Demo
 ========================================================
