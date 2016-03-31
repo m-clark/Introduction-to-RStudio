@@ -1,12 +1,7 @@
 Cheat Sheets
 ========================================================
-author:
-date: `r Sys.Date()`
-autosize: true
-transition: linear
-transition-speed: fast
+type:prompt
 css: workshop.css
-font-family: 'Helvetica'
 
 Cheat Sheets - RStudio Style
 ========================================================

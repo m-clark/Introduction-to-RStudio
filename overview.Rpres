@@ -1,15 +1,8 @@
 Overview
 ========================================================
-author:
-date: `r Sys.Date()`
-autosize: true
-transition: concave
+type:prompt
 css: workshop.css
-font-family: 'Helvetica'
 
-
-
-Overview
 ========================================================
 
 Base R is an extremely powerful tool
@@ -26,8 +19,6 @@ Options:
 - Various others
 
 
-
-Overview
 ========================================================
 Rstudio's strength is in assuming an interactive session from the outset
 
@@ -45,7 +36,7 @@ You still might want RStudio for documents/presentation
 
 
 
-Overview
+
 ========================================================
 transition: fade
 Rstudio offers:
@@ -59,7 +50,7 @@ Rstudio offers:
 
 - Web publishing
 
-Overview
+
 ========================================================
 transition: fade
 Rstudio offers:
@@ -71,7 +62,7 @@ Rstudio offers:
 - Addins
 
 
-Overview
+
 ========================================================
 Rstudio is an excellent tool for reproducible research
 
