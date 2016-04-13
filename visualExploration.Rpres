@@ -1,0 +1,148 @@
+Interactive and Visual Data Exploration
+========================================================
+type:prompt
+css: workshop.css
+
+The Viewer
+========================================================
+
+In addition to the "Plots" pane, RStudio also provides a "Viewer" pane.
+
+Anything interactive will
+
+Packages
+========================================================
+
+A few important packages:
+
+  - ggvis
+
+  - rbokeh
+
+  - DT
+
+  - dygraphs
+
+Interactive Tables (View)
+========================================================
+
+RStudio now gives you a sortable table with the <span class="func">View</span> function.
+
+  - <span class="func">View</span> just like you would otherwise use
+
+```{r, eval = FALSE}
+View(state.x77)
+```
+
+
+Interactive Tables With 'DT'
+========================================================
+
+The 'DT' package allows you to create interactive data tables.
+
+These tables will open in your viewer
+
+  - They also work nicely within R Markdown and similar formats
+
+    - They don't, however, work in ioslides!
+
+Checking Your Data
+========================================================
+
+It is always a good idea to give your data a visual pass.
+
+```{r, eval = FALSE}
+library(dplyr)
+
+DT::datatable(state.x77)
+```
+
+Identify anomolies, nonsense values, etc.
+
+Other Things To Check
+========================================================
+
+Summaries
+
+```{r, eval = FALSE}
+cbind(data.frame(state.x77), state.division) %>%
+  group_by(state.division) %>%
+  summarize(meanPop = round(mean(Population), 2),
+            meanMurder = round(mean(Murder), 2)) %>%
+  DT::datatable()
+```
+
+Correlation Tables
+
+```{r, eval = FALSE}
+data.frame(state.x77) %>%
+  cor() %>%
+  round(2) %>%
+  DT::datatable()
+```
+
+
+Some Additional Functionality
+========================================================
+
+The <span class="func">datatable</span> function also has an argument to filter your data.
+
+```{r, eval = FALSE}
+DT::datatable(cbind(data.frame(state.x77), state.division), filter = "top")
+```
+
+```{r, eval = FALSE}
+DT::datatable(cbind(data.frame(state.x77), as.character(state.division)), filter = "top")
+```
+
+Interactive Plots
+========================================================
+
+RStudio, in conjunction with some modern packages, let you visually explore your data.
+
+ggvis
+========================================================
+
+```{r}
+library(ggvis)
+
+stateDat = cbind(data.frame(state.x77), state.division) %>%
+  mutate(stateName = as.factor(rownames(state.x77)))
+
+all_values <- function(x) {
+  if(is.null(x)) return(NULL)
+  row = stateDat[stateDat$stateName == x$stateName, ]
+  paste0(stateDat$stateName[x$stateName], ": ", format(x), collapse = "<br />")
+}
+
+cbind(data.frame(state.x77), state.division) %>%
+  mutate(stateName = as.factor(rownames(state.x77))) %>%
+  ggvis(~ Illiteracy, ~ Income, key := ~stateName) %>%
+  layer_points(fill.hover =~ state.division) %>%
+  layer_smooths(span = input_slider(.2, 1)) %>%
+  add_tooltip(all_values, "hover")
+
+
+```
+
+
+rbokeh
+========================================================
+
+```{r}
+library(rbokeh)
+
+cbind(data.frame(state.x77), state.name) %>%
+  figure() %>%
+  ly_points(x = Illiteracy, y = Income,
+            color = state.division, hover = state.name) %>%
+  ly_lines(lowess(x = Illiteracy, y = Income))
+
+```
+
+Quick Wrap
+========================================================
+
+RStudio lets you take a deeper look at your data.
+
+Interactive tables and plots go a long way to helping you understand your data better.
