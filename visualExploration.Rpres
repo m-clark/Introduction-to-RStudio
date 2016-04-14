@@ -8,20 +8,18 @@ The Viewer
 
 In addition to the "Plots" pane, RStudio also provides a "Viewer" pane.
 
-Anything interactive will
+Anything interactive will be displayed there.
 
 Packages
 ========================================================
 
 A few important packages:
 
-  - ggvis
+  - <span class="pack">ggvis</span>
 
-  - rbokeh
+  - <span class="pack">rbokeh</span>
 
-  - DT
-
-  - dygraphs
+  - <span class="pack">DT</span>
 
 Interactive Tables (View)
 ========================================================
@@ -38,9 +36,9 @@ View(state.x77)
 Interactive Tables With 'DT'
 ========================================================
 
-The 'DT' package allows you to create interactive data tables.
+The <span class="pack">DT</span> package allows you to create interactive data tables.
 
-These tables will open in your viewer
+These tables will open in your viewer:
 
   - They also work nicely within R Markdown and similar formats
 
@@ -51,7 +49,7 @@ Checking Your Data
 
 It is always a good idea to give your data a visual pass.
 
-```{r, eval = FALSE}
+```{r, eval = FALSE, echo=-1}
 library(dplyr)
 
 DT::datatable(state.x77)
@@ -91,6 +89,8 @@ The <span class="func">datatable</span> function also has an argument to filter 
 DT::datatable(cbind(data.frame(state.x77), state.division), filter = "top")
 ```
 
+Same as above, but with division as a string:
+
 ```{r, eval = FALSE}
 DT::datatable(cbind(data.frame(state.x77), as.character(state.division)), filter = "top")
 ```
@@ -98,12 +98,25 @@ DT::datatable(cbind(data.frame(state.x77), as.character(state.division)), filter
 Interactive Plots
 ========================================================
 
-RStudio, in conjunction with some modern packages, let you visually explore your data.
+RStudio, in conjunction with some modern packages, lets you visually explore your data.
+
+There are two packages that are great for this:
+
+  - <span class="pack">ggvis</span>
+
+  - <span class="pack">rbokeh</span>
+
+ggvis
+========================================================
+With <span class="pack">ggvis</span>, you can take some of what you know from <span class="pack">ggplot2</span> and use it to create interactive, web-ready plots.
+
+  - Instead of building layers with <span class="func">+</span>, <span class="pack">ggvis</span> imports the <span class="func">%>%</span> operator from <span class="pack">magrittr</span>.
+
 
 ggvis
 ========================================================
 
-```{r}
+```{r, eval=FALSE}
 library(ggvis)
 
 stateDat = cbind(data.frame(state.x77), state.division) %>%
@@ -117,8 +130,8 @@ all_values <- function(x) {
 
 cbind(data.frame(state.x77), state.division) %>%
   mutate(stateName = as.factor(rownames(state.x77))) %>%
-  ggvis(~ Illiteracy, ~ Income, key := ~stateName) %>%
-  layer_points(fill.hover =~ state.division) %>%
+  ggvis(~ Illiteracy, ~ Income) %>%
+  layer_points(fill =~ state.division) %>%
   layer_smooths(span = input_slider(.2, 1)) %>%
   add_tooltip(all_values, "hover")
 
@@ -129,7 +142,14 @@ cbind(data.frame(state.x77), state.division) %>%
 rbokeh
 ========================================================
 
-```{r}
+The <span class="pack">rbokeh</span> package is a port of the 'bokeh' package from Python.
+
+It is very similar to <span class="pack">ggvis</span>, but there are some distinct differences.
+
+An Example
+========================================================
+
+```{r, eval=FALSE}
 library(rbokeh)
 
 cbind(data.frame(state.x77), state.name) %>%
@@ -139,6 +159,15 @@ cbind(data.frame(state.x77), state.name) %>%
   ly_lines(lowess(x = Illiteracy, y = Income))
 
 ```
+
+
+Which One?
+========================================================
+
+It might be easier to get up and going with <span class="pack">rbokeh</span>.
+
+On the other hand, <span class="pack">ggvis</span> is incredibly powerful and is ready to go into any <span class="pack">shiny</span> app.
+
 
 Quick Wrap
 ========================================================
