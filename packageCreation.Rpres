@@ -51,9 +51,6 @@ It will give you pre-formatted .Rd files that already contain your arguments:
   \item{y}{
 %%     ~~Describe \code{y} here~~
 }
-  \item{z}{
-%%     ~~Describe \code{z} here~~
-}
 }
 ```
 
