@@ -5,11 +5,11 @@ css: workshop.css
 
 ========================================================
 
-Base R is an extremely powerful tool
+Base R is an extremely powerful tool.
 
-The syntax editor in Base R is awful
+The syntax editor in Base R is awful.
 
-You should use something more efficient and easy to use
+You should use something more efficient and easy to use.
 
 Options:
 
@@ -20,19 +20,19 @@ Options:
 
 
 ========================================================
-Rstudio's strength is in assuming an interactive session from the outset
+Rstudio's strength is in assuming an interactive session from the outset.
 
-Emacs is especially powerful and useful (though at its core, a text editor rather than IDE)
+Emacs is especially powerful and useful (though at its core, a text editor rather than IDE).
 
 - Some of the R-core maintain Emacs Speaks Statistics
 
-However, there is an Emacs (and Vim) mode within Rstudio
+However, there is an Emacs (and Vim) mode within Rstudio.
 
 - Bring that editing approach to Rstudio with you
 
-You still might want RStudio for documents/presentation
+You still might want RStudio for documents/presentation.
 
-- $\LaTeX$ isn't everything
+- $\LaTeX$ isn't everything!
 
 
 
@@ -64,10 +64,10 @@ Rstudio offers:
 
 
 ========================================================
-Rstudio is an excellent tool for reproducible research
+Rstudio is an excellent tool for reproducible research.
 
 - Project management
 - Package building and freezing
 - Document generation
 
-In short, you can go from data import to (modern, web-based) publication and replication
+In short, you can go from data import to (modern, web-based) publication and replication.

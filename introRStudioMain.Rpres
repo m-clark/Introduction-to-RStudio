@@ -1,6 +1,6 @@
-Introduction to R Studio
+Intro to R Studio
 ========================================================
-author: A LazerHawk Production
+author: A Center for Social Research Production
 autosize: true
 transition: linear
 css: workshop.css
@@ -13,11 +13,6 @@ font-family: 'Helvetica'
 
 ========================================================
 ```{r, child = 'scripting.Rpres'}
-```
-
-
-========================================================
-```{r, child = 'visualExploration.Rpres'}
 ```
 
 
@@ -39,6 +34,12 @@ font-family: 'Helvetica'
 ========================================================
 ```{r, child = 'versionControl.Rpres'}
 ```
+
+
+========================================================
+```{r, child = 'visualExploration.Rpres'}
+```
+
 
 ========================================================
 ```{r, child = 'cheatSheets.Rpres'}

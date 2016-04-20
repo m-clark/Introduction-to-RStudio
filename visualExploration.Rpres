@@ -120,11 +120,9 @@ ggvis
 library(ggvis)
 
 cbind(data.frame(state.x77), state.division) %>%
-  mutate(stateName = as.factor(rownames(state.x77))) %>%
   ggvis(~ Illiteracy, ~ Income) %>%
-  layer_points(fill =~ state.division) %>%
-  layer_smooths(span = input_slider(.2, 1)) %>%
-  add_tooltip(all_values, "hover")
+  layer_points(fill = ~ state.division) %>%
+  layer_smooths(span = input_slider(.2, 1))
 ```
 
 

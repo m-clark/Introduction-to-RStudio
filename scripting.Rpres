@@ -5,14 +5,14 @@ type:prompt
 
 Scripting
 ========================================================
-Everyone that uses Rstudio does so for easier scripting, including:
+Everyone who uses Rstudio does so for easier scripting, including:
 
 - Syntax highlighting
 - Autocomplete of object/function names, etc.
 - Autopairing of parenthesis, quotes etc.
 - Auto indent
 
-It even makes working at the console viable
+It even makes working at the console viable.
 
 - Still not advised
 
@@ -90,11 +90,9 @@ Mac users: most of these would use Cmd rather than Ctrl (but not always)
 
 Snippets
 ========================================================
-left: 60%
+left: 65%
 
-Snippets allow one to insert code of a certain form for certain commonly used functions.
-
-- For loops, apply family, etc.
+Snippets allow one to insert code of a certain form for commonly used functions.
 
 You only have to type the first couple letters, the form of the rest of the code will fill out, then you can tab your way through the rest of it.
 
@@ -119,11 +117,11 @@ apply(array, margin, ...)
 Code Diagnostics
 ========================================================
 left:50%
-Rstudio will note problems in your code in the margin
+Rstudio will note problems in your code in the margin.
 
 - Examples: hanging brackets, too many commas etc.
 
-This works beyond just R scripts too
+This works beyond just R scripts too!
 ***
 <img src="img/codediagnosticcss.png" style="display:block; margin: 0 auto;">
 
