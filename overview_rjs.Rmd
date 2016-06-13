@@ -1,0 +1,77 @@
+---
+title: "Overview"
+output: 
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+##
+
+<div style='text-align: center; font-size:32'>
+<h1>Overview<h1>
+<img src='img/RMarkdownOutputFormats.png'>
+</div>
+
+##
+
+<div style='text-align: center; font-size:32'>
+<h1>Overview<h1>
+<img src='img/rstudio.png'>
+</div>
+
+## Overview 
+
+Base R is an extremely powerful tool. However...
+
+The syntax editor in Base R is a simple text editor and nothing more.
+
+You should use something more efficient and easy to use.
+
+Options:
+
+- Rstudio
+- Emacs
+- Vim
+- Various others
+
+Note however, there is an Emacs (and Vim) mode within Rstudio.
+
+
+
+## Overview
+
+Rstudio offers:
+
+- Code completion and snippets
+- Code diagnostics
+- Customizable shortcuts
+- Document generation (web, pdf, presentation, .doc)
+- Web publishing
+
+
+## Overview
+
+Rstudio offers:
+
+- Enhanced debugging, profiling
+- Navigable data frames
+- Version control
+- Interactive visualization
+- Addins
+
+
+## Overview 
+
+Rstudio is also an excellent tool for reproducible research.
+
+- Project management
+- Package building and freezing
+- Document generation
+
+In short, you can go from data import to (modern, web-based) publication and replication.

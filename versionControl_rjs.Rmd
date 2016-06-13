@@ -1,0 +1,126 @@
+---
+title: "Version Control"
+output: .
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+
+## 
+
+<div style='text-align: center; font-size:32'><h1>Version Control<h1></div>
+
+
+## Overview
+
+
+RStudio offers the ability to integrate version control into your project.
+
+  - Subversion
+  - Git
+  - Both are free and open
+
+## Wait, Wait! What Is Version Control?
+
+
+
+At its most basic, it is just a way to manage changes.
+
+  - Documents, code, etc.
+
+Especially useful when collaborating.
+
+  - Keep track of who is making changes and what they are changing
+  - Revert changes back to an earlier version
+  - Merging multiple copies of a document into one
+
+
+## Subversion
+
+
+Subversion (SVN) is "client-server" program.
+
+  - Users share a single repository
+
+## Git
+
+
+
+Git works on a distributed model
+
+  - Users create their own local repositories
+
+Created by the folks at Linux
+
+The Baskin Robbins of version control
+
+  - Bitbucket
+  - GitLab
+  - GitHub
+
+## GitHub
+
+
+GitHub is a web-based tool that allows you to upload your Git repository
+
+## Process (Briefly)
+
+
+
+  - Commit
+  - Push into repository
+  - Pull from repository
+
+## The Shell
+
+
+
+RStudio has you covered for most commands.
+
+If you need other things, RStudio will pull up the shell for you:
+
+  - commit --amend - Redoing a commit
+  - branch - Create a new branch
+  - merge - Merges the current branch into the Master
+  - log (--oneline) - Shows all commits (in one line)
+  - tag - Label a branch as an important one
+  - rm - Remove a file
+  - stash -  Stash a file to avoid making changes when pulling
+  - blame - Find out who made changes to a file
+
+
+## A Common Shell Use
+
+
+Sometimes, we create our local repository before creating our remote repository in GitHub
+
+  - Excitement often gets the best of us!
+
+If you want to push your local repository to a new remote repository, just use the following:
+
+```{engine = "bash", eval = FALSE,  }
+$ git remote add origin git@github.com:user--/repo.git
+
+$ git push origin master
+```
+
+
+## Lightning Demo
+
+
+**Various Shenanigans**
+
+## Quick Wrap
+
+
+RStudio makes it easy to integrate version control into your project.
+
+You have nothing to lose by keeping track of files and the changes that have been made to them.
+
+This is especially useful when collaborating.

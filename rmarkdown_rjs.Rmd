@@ -1,0 +1,17 @@
+---
+title: "Rmarkdown"
+output: .
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+
+## 
+
+<div style='text-align: center; font-size:32'><h1>Rmarkdown<h1></div>
