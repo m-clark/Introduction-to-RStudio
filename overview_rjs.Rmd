@@ -22,7 +22,7 @@ output:
 
 <div style='text-align: center; font-size:32'>
 <h1>Overview<h1>
-<img src='img/rstudio.png'>
+<img src='img/RStudio.png'>
 </div>
 
 ## Overview 
@@ -35,18 +35,18 @@ You should use something more efficient and easy to use.
 
 Options:
 
-- Rstudio
+- RStudio
 - Emacs
 - Vim
 - Various others
 
-Note however, there is an Emacs (and Vim) mode within Rstudio.
+Note however, there is an Emacs (and Vim) mode within RStudio.
 
 
 
 ## Overview
 
-Rstudio offers:
+RStudio offers:
 
 - Code completion and snippets
 - Code diagnostics
@@ -57,7 +57,7 @@ Rstudio offers:
 
 ## Overview
 
-Rstudio offers:
+RStudio offers:
 
 - Enhanced debugging, profiling
 - Navigable data frames
@@ -68,7 +68,7 @@ Rstudio offers:
 
 ## Overview 
 
-Rstudio is also an excellent tool for reproducible research.
+RStudio is also an excellent tool for reproducible research.
 
 - Project management
 - Package building and freezing

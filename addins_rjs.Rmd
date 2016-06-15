@@ -19,7 +19,7 @@ output: .
 
 ## Addins
 
-R Studio allows its users to create functions that can be used within R Studio with a click or keystroke.
+RStudio allows its users to create functions that can be used within RStudio with a click or keystroke.
 
 These special functions are called addins.
 

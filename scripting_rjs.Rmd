@@ -18,7 +18,7 @@ output:
 
 ## Scripting
 
-Everyone who uses Rstudio does so for easier scripting, including:
+Everyone who uses RStudio does so for easier scripting, including:
 
 - Syntax highlighting
 - Autocomplete of object/function names, etc.
@@ -129,7 +129,7 @@ apply(array, margin, ...)
 
 ## Code Diagnostics
 
-Rstudio will note problems in your code in the margin.
+RStudio will note problems in your code in the margin.
 
 - Examples: hanging brackets, too many commas etc.
 

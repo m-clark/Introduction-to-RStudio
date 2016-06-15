@@ -39,7 +39,7 @@ When the package gets created, each of the functions you added at this step will
 
 ## What You Get
 
-R Studio will automatically start you out with the following:
+RStudio will automatically start you out with the following:
 
   - DESCRIPTION: Just like every R package
 

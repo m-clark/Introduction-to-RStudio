@@ -51,3 +51,9 @@ pre {
   text-align: left;
   margin: 0 0 0 1em; 
 }
+
+.reveal section img { 
+    background: rgba(0, 0, 0, 0.12); 
+    border: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15) 
+}

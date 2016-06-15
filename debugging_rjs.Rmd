@@ -32,7 +32,7 @@ If you are doing anything more than twice, you should write a function instead.
 - It's more generalizable
 - It's more reproducible
 - Debugging can allow one to spot issues
-- Rstudio can help you get started transforming existing code to a function
+- RStudio can help you get started transforming existing code to a function
 
     - Ctrl+Alt+X on highlighted code
 

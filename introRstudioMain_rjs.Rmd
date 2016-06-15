@@ -17,6 +17,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+<img src='img/rstudioLogo.png'>
 
 ```{r, child = 'overview_rjs.Rmd'}
 ```
