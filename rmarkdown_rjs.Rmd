@@ -15,3 +15,11 @@ output: .
 ## 
 
 <div style='text-align: center; font-size:32'><h1>Rmarkdown<h1></div>
+
+## Rmarkdown
+
+- html, pdf, doc
+- presentations
+- notebooks
+- websites
+- other publication

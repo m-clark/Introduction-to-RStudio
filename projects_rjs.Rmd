@@ -15,3 +15,28 @@ output:
 ## 
 
 <div style='text-align: center; font-size:32'><h1>Projects<h1></div>
+
+
+## Projects
+
+Projects provide a self-contained ecosystem within which to work.
+
+- Projects have their their own working directory, workspace, etc.
+
+If you have multiple projects, you can easily jump between them.
+
+- Without losing your place
+
+
+## Projects
+
+File/New Project
+
+<img src="img/project1.png", width="50%", height="50%">
+
+Usually you'll select new, but you'll want to note the other options.
+
+- We'll talk about version control later.
+
+## Projects
+
