@@ -16,8 +16,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-<img src='img/rstudioLogo.png'>
+<div style='text-align: center;'><img src='img/rstudioLogo.png'></div>
 
 ```{r, child = 'overview_rjs.Rmd'}
 ```

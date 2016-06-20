@@ -55,5 +55,6 @@ pre {
 .reveal section img { 
     background: #002b36;                      /*theme background color: https://github.com/rstudio/revealjs/tree/master/inst/reveal.js-3.2.0/css/theme*/
     border: 0;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15) 
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+    /*max-width: 500px;*/
 }

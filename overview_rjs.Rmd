@@ -15,7 +15,7 @@ output:
 
 <div style='text-align: center; font-size:32'>
 <h1>Overview<h1>
-<img src='img/RMarkdownOutputFormats.png'>
+<img src='img/RMarkdownOutputFormatstrans.png' style="width:50%">
 </div>
 
 ##
