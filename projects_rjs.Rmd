@@ -38,5 +38,13 @@ Usually you'll select new, but you'll want to note the other options.
 
 - We'll talk about version control later.
 
+
 ## Projects
 
+All tabs opened will remain open when you revisit the project.
+
+You can have multiple projects running at the same time
+
+- i.e. multiple RStudio instances
+
+Projects can be seen as a first step in getting more organized, more reproducible etc.

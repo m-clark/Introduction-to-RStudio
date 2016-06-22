@@ -19,24 +19,36 @@ output: .
 
 ## The Viewer
 
-
 In addition to the "Plots" pane, RStudio also provides a "Viewer" pane.
 
 Anything interactive will be displayed there.
 
+
 ## Packages
 
+<span class="pack">ggplot2</span> Is the most widely used package for visualization in R.
 
-A few important packages:
+However, it is not interactive by default.
+
+Many packages use <span class="pack">htmlwidgets</span> and **d3** (javascript library) to provide interactive graphics.
+
+
+Some packages to note:
+  - <span class="pack">plotly</span>
+    - used also in Python, Matlab, Julia, aside from many interactive plots, can convert ggplot2 images to interactive ones.
 
   - <span class="pack">ggvis</span>
+    - interactive successort to ggplot though not currently actively developed
 
   - <span class="pack">rbokeh</span>
+    - like plotly, also has cross program support
 
   - <span class="pack">DT</span>
+    - interactive data
+
+
 
 ## Interactive Tables (View)
-
 
 RStudio now gives you a sortable table with the <span class="func">View</span> function.
 
@@ -45,6 +57,55 @@ RStudio now gives you a sortable table with the <span class="func">View</span> f
 ```{r, eval = FALSE}
 View(state.x77)
 ```
+
+## Example
+
+Works in your presentations too.
+
+```{r}
+library(plotly)
+df <- read.csv('https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv')
+df$hover <- with(df, paste(airport, city, state, "Arrivals: ", cnt))
+
+# marker styling
+m <- list(
+  colorbar = list(title = "Incoming flights February 2011"),
+  size = 8, opacity = 0.8, symbol = 'square'
+)
+
+# geo styling
+g <- list(
+  scope = 'usa',
+  projection = list(type = 'albers usa'),
+  showland = TRUE,
+  landcolor = toRGB("gray95"),
+  subunitcolor = toRGB("gray85"),
+  countrycolor = toRGB("gray85"),
+  countrywidth = 0.5,
+  subunitwidth = 0.5,
+  bgcolor='rgba(0,0,0,0)'
+)
+
+plot_ly(df, lat = lat, lon = long, text = hover, color = cnt, marker=m,
+        type = 'scattergeo', locationmode = 'USA-states', mode = 'markers', colors='RdBu') %>%
+  layout(title = 'Most trafficked US airports<br>(Hover for airport)', geo = g,
+         paper_bgcolor='rgba(0,0,0,0)',
+         plot_bgcolor='rgba(0,0,0,0)',
+         font=list(color=toRGB("gray85")),
+         width=1200
+         )
+```
+
+
+
+## Shiny
+
+<span class="emph">Shiny</span> is a framework that can essentially allow you to build an interactive website.
+
+Most of the more recently developed* packges will work specifically within the shiny and rmarkdown settings.
+
+
+<span style="font-size:10">R has a long history of providing interactive graphics, but most of it was very poor.</span>
 
 
 ## Interactive Tables With 'DT'

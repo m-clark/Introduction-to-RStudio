@@ -26,12 +26,14 @@ In addition, these customizations can be specific to all RStudio sessions or for
 - Tools/Global Options
 - Tools/Project Options
 
+
 ## Customization
 
 As a starting point, one would want to maybe change the look of it.
 
 - Code look, indentation, highlighting etc.
 - Window pane locations
+
 
 ## Customization
 

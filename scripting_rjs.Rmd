@@ -20,10 +20,10 @@ output:
 
 Everyone who uses RStudio does so for easier scripting, including:
 
-- Syntax highlighting
-- Autocomplete of object/function names, etc.
-- Autopairing of parenthesis, quotes etc.
-- Auto indent
+- <span class="emph">Syntax highlighting</span>
+- <span class="emph">Autocomplete</span> of object/function names, etc.
+- <span class="emph">Autopairing</span> of parenthesis, quotes etc.
+- <span class="emph">Auto indent</span> 
 
 It even makes working at the console viable.
 
@@ -68,7 +68,7 @@ Examples (Windows and Linux):
 
 
 
-## Keyboard shortcuts: tabs
+## Keyboard shortcuts: tab selection
 
 **Previous tab**: Ctrl+F11
 
@@ -92,15 +92,34 @@ Examples (Windows and Linux):
 
 
 
-## Keyboard shortcuts
+## Some favorite shortcuts
 
+Multicursor: Ctrl+Alt+select
+
+Move lines: (shift+) alt + arrow
+
+Clear console: Ctrl + L
+
+Restart R: Ctrl + Shft + F10
+
+Scripting/Console Window: Ctrl+1/Ctrl+2
+
+Rerun previous: Ctrl + Shft + P
+
+Run everything before: Ctrl + Alt + B
+
+Run everything before: Ctrl + Alt + E
+
+Knit: Ctrl + Shft + K
+
+
+## Keyboard shortcuts
 
 The point is, knowing just a dozen shortcuts could save a lot of time.
 
 - Bonus: Ctrl+Shft+a (tidy up your code)
 
 Mac users: most of these would use Cmd rather than Ctrl (but not always)
-
 
 
 ## Snippets
@@ -140,20 +159,3 @@ This works beyond just R scripts too!
 
 
 
-## MC's favorite shortcuts
-
-Multicursor: Ctrl+Alt+select
-
-Move lines: (shift+) alt + arrow
-
-Clear console: Ctrl + L
-
-Restart R: Ctrl + Shft + F10
-
-Scripting/Console Window: Ctrl+1/Ctrl+2
-
-Rerun previous: Ctrl + Shft + P
-
-Run everything before: Ctrl + Alt + B
-
-Knit: Ctrl + Shft + K
