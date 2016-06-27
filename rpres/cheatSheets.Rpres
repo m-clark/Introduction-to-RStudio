@@ -1,0 +1,128 @@
+Cheat Sheets
+========================================================
+type:prompt
+css: workshop.css
+
+Cheat Sheets - RStudio Style
+========================================================
+
+RStudio wants everything to be easy for us as R users.
+
+  - They do not mind that the kids (or rapscallions as Ripley would likely call them) are playing on the lawn.
+
+As such, they have produced a series of cheat sheets as reference material.
+
+https://www.rstudio.com/resources/cheatsheets/
+
+
+
+RStudio
+========================================================
+incremental: true
+
+RStudio has a cheatsheet for using RStudio!
+
+It provides a high-level overview for many of the things we are talking about here.
+
+It also has a comprehensive list of keyboard shortcuts.
+
+  - Alt + Shift + K will bring them up in RStudio.
+  - Shortcuts can save you a lot of time.
+  - Do show care in your keystrokes...otherwise, you might find your screen rotated or your keyboard is producing Hebrew characters.
+
+
+
+Data Visualization
+========================================================
+
+It is essentially a primer on using <span class="pack">ggplot2</span>.
+
+It effectively communicates the various geoms.
+
+For the beginning ggplot2 user, the following sections are indispensable:
+
+- Scales
+- Coordinate Systems
+- Faceting
+- Position Adjustments
+
+
+
+Data Wrangling
+========================================================
+incremental: true
+
+
+Data wrangling is essentially just a fun way of saying data cleaning and prep.
+
+The cheat sheet offers some useful tips on using two handy packages:
+
+- <span class="pack">dplyr</span>
+
+  - Handles all manners of data subsetting, filtering, variable selections, grouping, summarizing, etc.
+
+- <span class="pack">tidyr</span>
+
+  - Used for reshaping data (wide to long, long to wide).
+
+R Markdown
+========================================================
+
+R Markdown is used to generate reproducible documents with R.
+
+Your document can contain code, data, analyses, visualizations, or anything else that you want to include.
+
+You may also include html, css, javascript, and $\LaTeX$ in your documents.
+
+R Markdown documents can be saved as html, pdf, or even Word documents.
+
+
+R Markdown Reference Guide
+========================================================
+
+R Markdown is really a combination of three different things:
+
+- markdown
+
+  - The basic structure of the document (headings, sections, text)
+
+- <span class = "pack">knitr</span>
+
+  - Controls how R is used within the document
+
+- pandoc
+
+  - Controls the output (html, pdf; document, presentation)
+
+  - The last page list each format and the options that are available
+
+
+Package Development
+========================================================
+
+RStudio makes package development accessible to anyone.
+
+It has many capacities for helping you to create packages:
+
+- automatic file creation with <span class="pack">roxygen2</span>
+
+The cheat sheat details using <span class="pack">devtools</span>.
+
+- devtools was created specifically for package development
+
+
+Shiny
+========================================================
+
+Shiny is a web page that allows users to interact with an R session.
+
+  - Users can interact with the data, models, visualizations, etc.
+
+
+Quick Wrap
+========================================================
+incremental: true
+
+RStudio wants to make things easy on you!
+
+Having a handy copy of the cheat sheets will serve you well!

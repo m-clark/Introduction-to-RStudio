@@ -1,0 +1,63 @@
+---
+title: "Introduction to RStudio"
+author: "Michael Clark"
+date: "June 13, 2016"
+output: 
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: true
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: ../workshop.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=120), fig.align = 'center')
+```
+<div style='text-align: center;'><img src='../img/rstudioLogo.png'></div>
+
+```{r, child = 'overview.Rmd'}
+```
+
+```{r, child = 'scripting.Rmd'}
+```
+
+```{r, child = 'customization.Rmd'}
+```
+
+```{r, child = 'projects.Rmd'}
+```
+
+```{r, child = 'rmarkdown.Rmd'}
+```
+
+```{r, child = 'visualExploration.Rmd'}
+```
+
+```{r, child = 'addins.Rmd'}
+```
+
+
+
+
+
+##
+
+<div style='text-align: center; font-size:32'><h1>More Advanced<h1></div>
+
+
+```{r, child = 'debugging.Rmd'}
+```
+
+```{r, child = 'packageDevelopment.Rmd'}
+```
+
+```{r, child = 'versionControl.Rmd'}
+```
+
+
+
+```{r, child = 'cheatSheets.Rmd'}
+```

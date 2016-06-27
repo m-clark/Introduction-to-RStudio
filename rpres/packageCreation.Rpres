@@ -1,0 +1,95 @@
+Package Development
+========================================================
+type:prompt
+css: workshop.css
+
+========================================================
+
+RStudio makes package development easy.
+
+- New Project > New Directory > R Package
+
+![snapshot](packageCreation.png)
+
+
+R Package Dialog Box
+========================================================
+
+"Create package based on source files:" allows you to include previously written functions in your new package.
+
+When the package gets created, each of the functions you added at this step will have their own help files created.
+
+  - You will still need to complete the help files, but at least they are there.
+
+  - Do keep in mind that you need a $\LaTeX$ installation for help files!
+
+What You Get
+========================================================
+R Studio will automatically start you out with the following:
+
+  - DESCRIPTION: Just like every R package
+
+  - A 'man' folder: Contains .Rd files for each function
+
+  - An 'R' folder: Contains your functions.
+
+You might also consider adding an .md file if you want to put your package on GitHub.
+
+
+Function Documentation
+========================================================
+
+The <span class="pack">roxygen2</span> package helps to properly format your documentation files.
+
+It will give you pre-formatted .Rd files that already contain your arguments:
+
+```
+\arguments{
+  \item{x}{
+%%     ~~Describe \code{x} here~~
+}
+  \item{y}{
+%%     ~~Describe \code{y} here~~
+}
+}
+```
+
+All you need to do is add explanatory text and working examples.
+
+Build & Reload
+========================================================
+
+After you have all of your files ready, you can build the package.
+
+
+Check
+========================================================
+
+Packages tend to have a lot happening in them.
+
+To help you make sure that the package has everything it needs, you can run the <span class="func">check</span> function from <span class="pack">devtools</span> on it.
+
+It will check package quality across many dimensions:
+
+  - Ability to install package and its dependencies
+
+  - Checking help file quality
+
+  - Find errors in examples
+
+All of this testing will occur within the "Build" pane and you can see errors as they occur.
+
+You can also look at the log file that is produced.
+
+
+Demonstration
+========================================================
+
+
+
+Quick Wrap
+========================================================
+
+RStudio has built-in tools that make package creation a straight-forward process.
+
+You should not be afraid to create your own packages.

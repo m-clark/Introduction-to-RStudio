@@ -1,0 +1,45 @@
+---
+title: "Customization"
+output:
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+
+## 
+
+<div style='text-align: center; font-size:32'><h1>Customization<h1></div>
+
+
+## Customization
+
+RStudio allows one to customize various aspects of how it looks and how you interact with it.
+
+In addition, these customizations can be specific to all RStudio sessions or for a particular project you're working on.
+
+- Tools/Global Options
+- Tools/Project Options
+
+
+## Customization
+
+As a starting point, one would want to maybe change the look of it.
+
+- Code look, indentation, highlighting etc.
+- Window pane locations
+
+
+## Customization
+
+<div style='text-align:center;'><img src="img/customization1.png"/></div>
+
+
+## Customization
+
+While you may certainly want to change things such as the look, to not save the workspace automatically etc., the main point is simply to be aware of what you **can** change.

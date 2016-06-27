@@ -1,0 +1,51 @@
+Doing More with Rstudio
+========================================================
+author:
+date: `r Sys.Date()`
+autosize: true
+transition: concave
+css: workshop.css
+font-family: 'Helvetica'
+
+Outline
+========================================================
+## Overview
+## Scripting
+- Common Shortcuts
+  - Cleaner code
+  - Moving around
+- Customization
+
+## Project Management
+## Documents
+-  Templates
+
+Outline
+========================================================
+
+## Presentations (like this!)
+## Version control
+## Addins
+## Cheatsheets
+
+Outline
+========================================================
+
+## Advanced
+- Other programming languages
+- Deubgging
+- Package development
+
+Who this is for
+========================================================
+People who currently use Base R's text editor
+
+People who use Rstudio only for scripting purposes
+
+Possibly those who use the more powerful text editors and wonder what the fuss is about
+
+```{r child='overview.Rpres'}
+```
+```{r child='scripting.Rpres'}
+```
+

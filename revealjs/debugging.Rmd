@@ -1,0 +1,105 @@
+---
+title: "Debugging."
+output: .
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+
+## 
+
+<div style='text-align: center; font-size:32'><h1>Debugging<br><br> Profiling<h1></div>
+
+## What is Debugging?
+
+
+<span class="emph">Debugging</span> is merely finding and fixing problematic code.
+
+  - Code will always have bugs
+
+Debugging is an absolutely essential part of creating functions.
+
+## A note about functions
+
+If you are doing anything more than twice, you should write a function instead.
+
+- It's more generalizable
+- It's more reproducible
+- It's more efficient
+- Debugging can allow one to spot issues
+
+- RStudio can even help you get started transforming existing code to a function
+
+    - Ctrl+Alt+X/Cmnd+Opt+X on highlighted code
+
+
+## Debugging in RStudio
+
+There are numerous facilities within R to help you debug your code.
+
+- Break Points
+
+- <span class="func">browser</span>
+
+- <span class="func">debug</span>
+
+- <span class="func">debugonce</span>
+
+- <span class="func">traceback</span>
+
+
+RStudio makes the process pretty easy.
+
+
+## Debug Mode Commands
+
+
+There are commands that allow you to work through debugging:
+
+- Next (n)/Return: runs the next line
+
+- Step into (s): if the next line is a new function, it enters into the function
+
+  - Careful with this one; you can get pretty far into other functions
+
+- Finish (f): finishes the function
+
+- Continue `(c)`: stops debugging and runs the function
+
+- Stop (Q): stops debugging and does not run the function
+
+
+## Debug Mode Commands
+
+Each of these also has a button in the debugging menu
+
+<img src="img/debugToolbar.png" style="display:block; margin: 0 auto;">
+
+
+## Profiling
+
+Code <span class="emph">profiling</span> allows one to see what parts of the code take most of the processing time and resources (memory)
+
+Like debugging, there have always been tools in base R for this, but Rstudio makes it easy to profile any code.
+
+Furthermore, it doesn't have to be an explicit function.
+
+## Profiling
+
+<img src="img/profile1.png" style="display:block; margin: 0 auto; width='50%'; height='25%'">
+<img src="img/profile2.png" style="display:block; margin: 0 auto; width='50%'; height='25%'">
+<img src="img/debugToolbar.png" style="display:block; margin: 0 auto;">
+
+## Quick Wrap
+
+>- Debugging and profiling is an important part of advanced programming.
+
+>- Regardless of expertise, one should desire to make code as general and reproducible as possible.
+
+>- RStudio makes the process more interactive and flexible.
