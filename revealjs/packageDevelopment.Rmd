@@ -23,10 +23,10 @@ RStudio makes package development easier too.
 
 - New Project > New Directory > R Package
 
-<img src="img/packageCreation.png" style="display:block; margin: 0 auto; width:50%">
+<img src="../img/packageCreation.png" style="display:block; margin: 0 auto; width:50%">
+
 
 ## R Package Dialog Box
-
 
 "Create package based on source files:" allows you to include previously written functions in your new package.
 
@@ -66,7 +66,6 @@ It will check package quality across many dimensions:
 
 
 ## Quick Wrap
-
 
 RStudio has built-in tools that make package creation a straight-forward process.
 

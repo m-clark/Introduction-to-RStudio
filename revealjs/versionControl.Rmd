@@ -61,7 +61,7 @@ GitHub is a web-based hosting services that allows you to upload your Git reposi
 
 Essentially a social Network for software and other developers.
 
-<img src="img/octocat.png" style="display:block; margin: 0 auto; width:50%">
+<img src="../img/octocat.png" style="display:block; margin: 0 auto; width:50%">
 
 
 ## Process (Briefly)
@@ -73,12 +73,11 @@ Essentially a social Network for software and other developers.
 
 ## GUI vs. the Shell
 
-Rstudio makes it easy to commit, push, pull, revert, check diffs etc.
+RStudio makes it easy to commit, push, pull, revert, check diffs etc.
 
 If you need other things, you can access the Git shell directly
 
-<img src="img/commitsndiffs.png" style="display:block; margin: 0 auto; width:50%">
-
+<img src="../img/commitsndiffs.png" style="display:block; margin: 0 auto; width:50%">
 
 
 ## Quick Wrap

@@ -47,4 +47,4 @@ I like R!
 
 ## Example: ColorPicker
 
-<img src="img/colorpicker.png" style="display:block; margin: 0 auto; width: 50%">
+<img src="../img/colorpicker.png" style="display:block; margin: 0 auto; width: 50%">

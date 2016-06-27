@@ -30,7 +30,7 @@ Anything interactive will be displayed there.
 
 However, it is not interactive by default.
 
-Many packages use <span class="pack">htmlwidgets</span> and **d3** (javascript library) to provide interactive graphics.
+Many packages use <span class="pack">htmlwidgets</span> and **d3** (JavaScript library) to provide interactive graphics.
 
 
 ## Packages
@@ -41,7 +41,7 @@ Some packages to note:
     - used also in Python, Matlab, Julia, aside from many interactive plots, can convert ggplot2 images to interactive ones.
 
   - <span class="pack">ggvis</span>
-    - interactive successort to ggplot though not currently actively developed
+    - interactive successor to to ggplot though not currently actively developed
 
   - <span class="pack">rbokeh</span>
     - like plotly, also has cross program support
@@ -96,7 +96,7 @@ plot_ly(df, lat = lat, lon = long, text = hover, color = cnt, marker=m,
 
 <span class="emph">Shiny</span> is a framework that can essentially allow you to build an interactive website.
 
-Most of the more recently developed* packges will work specifically within the shiny and rmarkdown settings.
+Most of the more recently developed* packages will work specifically within the shiny and rmarkdown settings.
 
 <br><br><br>
 <span style="size:8"> \*R has a long history of providing interactive graphics, but most of it was very poor.</span>

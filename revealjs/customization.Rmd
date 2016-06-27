@@ -37,7 +37,7 @@ As a starting point, one would want to maybe change the look of it.
 
 ## Customization
 
-<div style='text-align:center;'><img src="img/customization1.png"/></div>
+<div style='text-align:center;'><img src="../img/customization1.png"/></div>
 
 
 ## Customization

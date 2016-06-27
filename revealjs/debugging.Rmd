@@ -79,22 +79,22 @@ There are commands that allow you to work through debugging:
 
 Each of these also has a button in the debugging menu
 
-<img src="img/debugToolbar.png" style="display:block; margin: 0 auto;">
+<img src="../img/debugToolbar.png" style="display:block; margin: 0 auto;">
 
 
 ## Profiling
 
 Code <span class="emph">profiling</span> allows one to see what parts of the code take most of the processing time and resources (memory)
 
-Like debugging, there have always been tools in base R for this, but Rstudio makes it easy to profile any code.
+Like debugging, there have always been tools in base R for this, but RStudio makes it easy to profile any code.
 
 Furthermore, it doesn't have to be an explicit function.
 
 ## Profiling
 
-<img src="img/profile1.png" style="display:block; margin: 0 auto; width='50%'; height='25%'">
-<img src="img/profile2.png" style="display:block; margin: 0 auto; width='50%'; height='25%'">
-<img src="img/debugToolbar.png" style="display:block; margin: 0 auto;">
+<img src="../img/profile1.png" style="display:block; margin: 0 auto; width='50%'; height='25%'">
+<img src="../img/profile2.png" style="display:block; margin: 0 auto; width='50%'; height='25%'">
+<img src="../img/debugToolbar.png" style="display:block; margin: 0 auto;">
 
 ## Quick Wrap
 

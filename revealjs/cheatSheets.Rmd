@@ -25,7 +25,6 @@ As such, they have produced a series of cheat sheets as reference material.
 https://www.rstudio.com/resources/cheatsheets/
 
 
-
 ## RStudio
 
 RStudio even has a cheatsheet for using RStudio!
@@ -37,7 +36,6 @@ It also has a comprehensive list of keyboard shortcuts.
   - Alt + Shift + K will bring them up in RStudio.
   - Shortcuts can save you a lot of time.
   - Do show care in your keystrokes...otherwise, you might find your screen rotated or your keyboard is producing Hebrew characters.
-
 
 
 ## Data Visualization
@@ -52,7 +50,6 @@ For the beginning ggplot2 user, the following sections are indispensable:
 - Coordinate Systems
 - Faceting
 - Position Adjustments
-
 
 
 ## Data Wrangling
@@ -106,7 +103,7 @@ It has many capacities for helping you to create packages:
 
   - automatic file creation with <span class="pack">roxygen2</span>
 
-The cheat sheat details using <span class="pack">devtools</span>.
+The cheat sheet details using <span class="pack">devtools</span>.
 
   - devtools was created specifically for package development
 
