@@ -115,8 +115,3 @@ Shiny is a web page that allows users to interact with an R session.
   - Users can interact with the data, models, visualizations, etc.
 
 
-## Quick Wrap
-
-RStudio wants to make things easy on you!
-
-Having a handy copy of the cheat sheets will serve you well!

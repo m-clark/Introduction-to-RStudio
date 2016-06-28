@@ -1,7 +1,11 @@
 ---
 title: "Getting More from RStudio"
-author: "Michael Clark"
-date: "June 13, 2016"
+author: |
+  | <span style="size:8">Michael Clark</span>
+  | Statistician Lead
+  | Consulting for Statistics, Computing and Analytics Research
+  | <span style="color:'#00274c'">Advanced Research Computing</span>
+date: "`r Sys.Date()`"
 output: 
   revealjs::revealjs_presentation:
     theme: moon
@@ -61,3 +65,14 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 
 ```{r, child = 'cheatSheets.Rmd'}
 ```
+
+
+## Summary
+
+RStudio wants to make a lot of common processes easy for you.
+
+This goes beyond scripting, and can serve you from the beginning of a project to whatever ends you take it.
+
+
+* Special thanks to Seth Berry for load of help with the content!
+
