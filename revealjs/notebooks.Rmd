@@ -1,0 +1,16 @@
+---
+title: "Notebooks"
+output: 
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=120), fig.align = 'center')
+```
