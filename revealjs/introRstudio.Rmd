@@ -37,6 +37,9 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 ```{r, child = 'rmarkdown.Rmd'}
 ```
 
+```{r, child = 'notebooks.Rmd'}
+```
+
 ```{r, child = 'visualExploration.Rmd'}
 ```
 
