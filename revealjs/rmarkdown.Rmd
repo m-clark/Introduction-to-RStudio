@@ -25,7 +25,7 @@ R is fast becoming a general programming environment rather than just a statisti
 
 - Not necessary to know html
 
-Now one can intermingle R with markdown, <span class="emph">html</span>, <span class="emph">css</span>, <span class="emph">JavaScript</span>, <span class="emph">$\LaTeX$</span> and others resulting in a variety of products
+Now one can intermingle R with markdown, <span class="emph">html</span>, <span class="emph">css</span>, <span class="emph">JavaScript</span>, <span class="emph">$\LaTeX$</span> and others resulting in a variety of products.
 
 
 ## Rmarkdown
@@ -35,8 +35,11 @@ Now one can intermingle R with markdown, <span class="emph">html</span>, <span c
 - dashboards
 - notebooks
 - websites
-- other publication
+- other publications
 
+<span class="emph">*Literate programming*</span>
+
+<span class="emph">*Reproducible research*</span>
 
 ## Example
 

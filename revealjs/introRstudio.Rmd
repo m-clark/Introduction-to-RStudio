@@ -15,6 +15,10 @@ output:
     smart: true
     background_transition: slide
     css: ../workshop.css
+    reveal_options:
+      slideNumber: true
+      previewLinks: true
+      viewDistance: 3
 ---
 
 ```{r setup, include=FALSE}
@@ -63,8 +67,6 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 
 ```{r, child = 'versionControl.Rmd'}
 ```
-
-
 
 ```{r, child = 'cheatSheets.Rmd'}
 ```

@@ -11,6 +11,44 @@ output:
     css: workshop.css
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=120), fig.align = 'center')
-```
+
+## 
+
+<div style='text-align: center; font-size:32'><h1>Notebooks<h1></div>
+
+
+
+## Notebooks
+
+<span class="emph">Notebooks</span> provide a different way to interact with R.
+
+Previously one could save out an html_document file as a 'notebook'.
+
+Now one can start an interactive R script.
+
+- chunks of R code can be executed independently as needed
+
+The output is actually visible at the point where the code is written. 
+
+
+
+## Notebooks
+
+File/New File/R Noteboook...
+
+<img src="../img/notebook.png" style="display:block; margin: 0 auto;">
+
+
+
+## Notebooks
+
+You may still want to use (or prefer) the console, but you don't have to.
+
+The visualization viewer will allow for previews of the final document.
+
+
+## Notebooks
+
+Notebooks are essentially a different flavor of Rmarkdown document.
+
+Good for sharing your work.

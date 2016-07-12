@@ -1,0 +1,26 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Create some data!
+
+Here's an r chunk to create the data!
+
+```{r}
+x = sort(rnorm(100))
+y = sin(x)
+summary(x)
+summary(y)
+```
+
+
+# Plot it
+
+
+```{r}
+library(plotly)
+plot_ly(x=x, y=y, mode='markers', width=800) %>% 
+  add_trace(x=x, y=y, mode='line')
+```
+

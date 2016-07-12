@@ -30,7 +30,7 @@ Anything interactive will be displayed there.
 
 However, it is not interactive by default.
 
-Many packages use <span class="pack">htmlwidgets</span> and **d3** (JavaScript library) to provide interactive graphics.
+Many packages use <span class="pack">htmlwidgets</span>, **d3** (JavaScript library) etc. to provide interactive graphics.
 
 
 ## Packages
@@ -99,7 +99,7 @@ plot_ly(df, lat = lat, lon = long, text = hover, color = cnt, marker=m,
 Most of the more recently developed* packages will work specifically within the shiny and rmarkdown settings.
 
 <br><br><br>
-<span style="size:8"> \*R has a long history of providing interactive graphics, but most of it was very poor.</span>
+<span style="font-size:12pt">\*R actually has a long history of providing interactive graphics, but most of it was very poor.</span>
 
 
 
@@ -109,3 +109,5 @@ Most of the more recently developed* packages will work specifically within the 
 RStudio lets you take a deeper look at your data with easy interactivity.
 
 Interactive tables and plots go a long way to helping you understand your data better.
+
+Being comfortable with just a couple visualization packages can take you very long way.

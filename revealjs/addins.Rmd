@@ -32,7 +32,7 @@ They can be anything, but the easiest (and perhaps most useful) example is text 
 
 ## Creating Addins
 
-Addins are nothing more than R functions that you can call interactively.
+Addins are in some sense nothing more than R functions that you can call interactively.
 
 ```{r}
 likeR = function() {
@@ -45,6 +45,18 @@ likeR()
 I like R!
 ```
 
+However, they can possibly do quite a bit.
+
 ## Example: ColorPicker
 
-<img src="../img/colorpicker.png" style="display:block; margin: 0 auto; width: 50%">
+<img src="../img/colorpicker.png" style="display:block; margin: 0 auto; width: 75%">
+
+
+## Example: Radiant
+
+<img src="../img/addin_radiant.png" style="display:block; margin: 0 auto; width: 75%">
+
+## List of addins
+
+
+https://github.com/daattali/addinslist#readme
