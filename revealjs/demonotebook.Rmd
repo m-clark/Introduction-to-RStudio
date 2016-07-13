@@ -1,6 +1,8 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  pdf_document: default
+  html_notebook: default
 ---
 
 # Create some data!
@@ -18,7 +20,7 @@ summary(y)
 # Plot it
 
 
-```{r}
+```{r message=F}
 library(plotly)
 plot_ly(x=x, y=y, mode='markers', width=800) %>% 
   add_trace(x=x, y=y, mode='line')

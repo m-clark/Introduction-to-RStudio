@@ -28,27 +28,28 @@ output: .
 
 
 ## What is R?
-<div class="col2" style='font-size:75%'>
-R is fast becoming a general programming environment rather than just a statistical one.
+<div style='font-size:90%'>
+R is fast becoming a general programming environment 
 
-<span class="emph">Markdown</span> is a markup language. 
+- Not just for statistics anymore!
+
+<div class="col2" style='font-size:100%'>
+<span class="emph">Markdown</span> is a markup language.
+<br><br>
+<img src="../img/Markdown-mark-white.svg" style="display:block; margin: 0 auto; width:25%">
+</div>
 
 - Allows for easier web-based documentation.
-
 - Not necessary to know html.
 - Lots of things will use it.
 - <span class="emph">Rmarkdown</span> is a flavor.
-<br><br>
 
 Now one can intermingle R with markdown, <span class="emph">html</span>, <span class="emph">css</span>, <span class="emph">JavaScript</span>, <span class="emph">$\LaTeX$</span> and others resulting in a variety of products.
-
-<br><br>
-<img src="../img/Markdown-mark.svg" style="display:block; margin: 0 auto;">
 </div>
 
 ## Rmarkdown
 
-Rstudio and Rmarkdown makes it easy to construct:
+Rstudio and Rmarkdown make it easy to construct:
 
 - html, pdf, MS Word documents
 - presentations (like this one)
@@ -80,9 +81,7 @@ Rmarkdown documents combine:
 print("This is an R chunk, in a slide, of the presentation you're looking at!")
 ```
 
-<div style='text-align: center;'><img src="../img/rchunk.png", style="width:85%"/></div>
-
-
+<img src="../img/rchunk.png" style="display:block; margin: 0 auto; width:85%">
 
 ## Rmarkdown
 

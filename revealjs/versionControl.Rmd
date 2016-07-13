@@ -82,7 +82,7 @@ If you need other things, you can access the Git shell directly
 
 ## Version Control
 
-RStudio makes it easy to integrate version control into your project.
+RStudio can integrate version control into your projects.
 
 You have nothing to lose by keeping track of changes to files.
 

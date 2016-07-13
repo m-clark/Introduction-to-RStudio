@@ -52,7 +52,7 @@ The viewer will allow for previews of the final document.
 
 ## Notebooks
 
-Notebooks are essentially a different flavor of Rmarkdown document.
+Notebooks are a different flavor of Rmarkdown document.
 
 Good for sharing your work.
 

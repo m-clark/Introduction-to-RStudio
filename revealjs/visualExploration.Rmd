@@ -28,9 +28,18 @@ Anything interactive will be displayed there.
 
 <span class="pack">ggplot2</span> is the most widely used package for visualization in R.
 
-However, it is not interactive by default.
+However, it does not produce interactive plots by nature.
 
-Many packages use <span class="pack">htmlwidgets</span>, **d3** (JavaScript library) etc. to provide interactive graphics.
+Many packages use various Javascript libraries to provide interactive graphics.
+
+<div class="col2">
+  - <span class="pack">d3</span>
+  - <span class="pack">leaflet</span>
+  - <span class="pack">vis</span>
+  - <span class="pack">mermaid</span>
+<img src="../img/jslogo.png" style="display:block; margin: 0 auto;">
+</div>
+Many utilize these packages via the <span class="pack">htmlwidgets</span> R package.
 
 
 ## Packages

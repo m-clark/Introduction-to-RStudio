@@ -20,6 +20,7 @@ output:
 ## Customization
 
 Customize various aspects of how RStudio 
+
   - How it looks 
   - How you interact with it.
 

@@ -68,7 +68,7 @@ pre {
 }
 
 .col2 {
-  columns: 2 200px;         /* number of columns and width in pixels*/
+  columns: 2 250px;         /* number of columns and width in pixels*/
    /*font-size: 50%;*/      /* ignored, but can do in the div style within a slide*/
   /*font-size: 20pt;*/
   -webkit-columns: 2 200px; /* chrome, safari */

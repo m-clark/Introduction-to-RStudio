@@ -17,6 +17,8 @@ output:
     background_transition: slide
     css: ../workshop.css
     reveal_options:
+      self_contained: false
+      reveal_plugins: "search"
       slideNumber: true
       previewLinks: true
       viewDistance: 3
@@ -84,9 +86,12 @@ RStudio can enhance and accelerate your R experience.
 *Not just for scripting!*
 
 It can serve you from the beginning of a project to whatever ends you take it.
+<br><br><br>
 
+<div style:"text-align:center;">
+<span style="color:#EEE8D5; font-size:200%; font-variant:small-caps; font-style:italic">THANKS!</span>
+</div>
 
 
 <br><br><br>
 *Special thanks to Seth Berry @ Notre Dame for loads of help with the content!
-

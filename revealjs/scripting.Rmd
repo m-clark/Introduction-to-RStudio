@@ -56,11 +56,11 @@ Examples (Windows and Linux):
 <div style="text-align:center">Alt+Shft+K</div>
 
 
-## Some favorite shortcuts
+## Some oft-used/favorite shortcuts
 
-**Multicursor**: Ctrl+Alt+select
+**Multicursor**: Ctrl + Alt + select
 
-**Move lines**: (shift+) alt + arrow
+**(Copy) Move lines**: (shift+) alt + arrow
 
 **Clear console**: Ctrl + L
 
@@ -81,9 +81,11 @@ Examples (Windows and Linux):
 
 Knowing just a dozen shortcuts could <span class="emph">*save a lot of time*</span>.
 
-- Bonus: Ctrl+Shft+a (tidy up your code)
+- Bonus: Ctrl + Shft + A (tidy up your code)
 
-Mac users: most of these would use Cmd rather than Ctrl
+You can customize them however you want.
+
+Mac users: most of these would use Cmd and Option rather than Ctrl and Alt
 
 
 ## Snippets
