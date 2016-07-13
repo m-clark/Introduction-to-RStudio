@@ -19,14 +19,14 @@ output: .
 
 ## The Viewer
 
-In addition to the "Plots" pane, RStudio also provides a "Viewer" pane.
+Along with the <span class="emph">Plots</span> pane, RStudio provides a <span class="emph">Viewer</span> pane.
 
 Anything interactive will be displayed there.
 
 
 ## Packages
 
-<span class="pack">ggplot2</span> Is the most widely used package for visualization in R.
+<span class="pack">ggplot2</span> is the most widely used package for visualization in R.
 
 However, it is not interactive by default.
 
@@ -47,7 +47,7 @@ Some packages to note:
     - like plotly, also has cross program support
 
   - <span class="pack">DT</span>
-    - interactive data
+    - interactive data tables
 
 
 ## Example
@@ -82,12 +82,12 @@ g <- list(
 )
 
 plot_ly(df, lat = lat, lon = long, text = hover, color = cnt, marker=m, 
-        type = 'scattergeo', locationmode = 'USA-states', mode = 'markers', colors='RdBu') %>%
+        type = 'scattergeo', locationmode = 'USA-states', mode = 'markers', colors='RdBu',
+         width=1000) %>%
   layout(title = 'Most trafficked US airports<br>(Hover for airport)', geo = g,
          paper_bgcolor='rgba(0,0,0,0)',
          plot_bgcolor='rgba(0,0,0,0)',
-         font=list(color=toRGB("gray85")),
-         width=1200
+         font=list(color=toRGB("gray85"))
          )
 ```
 
@@ -96,18 +96,20 @@ plot_ly(df, lat = lat, lon = long, text = hover, color = cnt, marker=m,
 
 <span class="emph">Shiny</span> is a framework that can essentially allow you to build an interactive website.
 
-Most of the more recently developed* packages will work specifically within the shiny and rmarkdown settings.
+- Provided by RStudio developers
 
-<br><br><br>
-<span style="font-size:12pt">\*R actually has a long history of providing interactive graphics, but most of it was very poor.</span>
-
+Most of the more recently developed visualization packages will work specifically within the shiny and rmarkdown settings.
 
 
-## Quick Wrap
 
 
-RStudio lets you take a deeper look at your data with easy interactivity.
+## Interactive and Visual Data Exploration
 
-Interactive tables and plots go a long way to helping you understand your data better.
 
-Being comfortable with just a couple visualization packages can take you very long way.
+RStudio lets you take a deeper look at your data more easily.
+
+Accessible interactivity.
+
+Interactive graphics are more fun too!
+
+Just a couple visualization packages can go a very long way.

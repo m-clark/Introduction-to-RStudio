@@ -22,13 +22,14 @@ output:
 
 <span class="emph">Notebooks</span> provide a different way to interact with R.
 
-Previously one could save out an html_document file as a 'notebook'.
+Previously one could save out some files as a 'notebook'.
 
 Now one can start an interactive R script.
 
 - chunks of R code can be executed independently as needed
 
-The output is actually visible at the point where the code is written. 
+Output is visible at the point where the code is written. 
+
 
 
 
@@ -42,9 +43,11 @@ File/New File/R Noteboook...
 
 ## Notebooks
 
-You may still want to use (or prefer) the console, but you don't have to.
+You may still want to use (or prefer) the console
 
-The visualization viewer will allow for previews of the final document.
+-  But you don't have to.
+
+The viewer will allow for previews of the final document.
 
 
 ## Notebooks
@@ -52,3 +55,5 @@ The visualization viewer will allow for previews of the final document.
 Notebooks are essentially a different flavor of Rmarkdown document.
 
 Good for sharing your work.
+
+See also, <span class="emph">Jupyter</span>.

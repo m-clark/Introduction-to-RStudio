@@ -19,7 +19,7 @@ output:
 
 ## Scripting
 
-Everyone who uses RStudio does benefits from easier scripting, including:
+Everyone who uses RStudio benefits from easier scripting:
 
 - <span class="emph">Syntax highlighting</span>
 - <span class="emph">Autocomplete</span> of object/function names, etc.
@@ -79,18 +79,24 @@ Examples (Windows and Linux):
 
 ## Keyboard shortcuts
 
-The point is, knowing just a dozen shortcuts could save a lot of time.
+Knowing just a dozen shortcuts could <span class="emph">*save a lot of time*</span>.
 
 - Bonus: Ctrl+Shft+a (tidy up your code)
 
-Mac users: most of these would use Cmd rather than Ctrl (but not always)
+Mac users: most of these would use Cmd rather than Ctrl
 
 
 ## Snippets
 
-Snippets allow one to insert code of a certain form for commonly used functions.
+<span class="emph">Snippets</span> allow one to insert code of a certain form for commonly used functions.
 
 You only have to type the first couple letters, the form of the rest of the code will fill out, then you can tab your way through the rest of it.
+
+Good for:
+
+- starting functions
+- apply family of functions
+- even for other languages
 
 
 ```{r snippetDemo, eval=FALSE}
@@ -106,8 +112,12 @@ apply(array, margin, ...)
 ```
 
 ***
+
 <img src='../img/snippet1.png' style='width:150%; height:200%'>
-<img src='../img/snippet2.png'>
+
+<br>
+
+<img src='../img/snippet2.png' style='width:150%; height:200%'>
 
 
 ## Code Diagnostics
@@ -118,8 +128,8 @@ RStudio will note problems in your code in the margin.
 
 This works beyond just R scripts too!
 
-***
-<img src="../img/codediagnosticcss.png" style="display:block; margin: 0 auto;">
+## Code Diagnostics
+<img src="../img/codediagnosticcss.png" style="display:block; margin: 0 auto; width:100%">
 
 
 

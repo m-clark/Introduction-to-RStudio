@@ -23,20 +23,21 @@ output: .
 
   - Code will always have bugs
 
-Debugging is an absolutely essential part of creating functions.
+Debugging is an essential part of creating functions.
 
 ## A note about functions
 
-If you are doing anything more than twice, you should write a function instead.
+If you are doing anything more than twice, write a function!
 
 - It's more generalizable
 - It's more reproducible
 - It's more efficient
-- Debugging can allow one to spot issues
 
-- RStudio can even help you get started transforming existing code to a function
+Debugging can allow one to spot issues
 
-    - Ctrl+Alt+X/Cmnd+Opt+X on highlighted code
+RStudio can even help you get started transforming existing code to a function
+
+- Ctrl+Alt+X/Cmnd+Opt+X on highlighted code
 
 
 ## Debugging in RStudio
@@ -96,10 +97,12 @@ Furthermore, it doesn't have to be an explicit function.
 <img src="../img/profile2.png" style="display:block; margin: 0 auto; width='50%'; height='25%'">
 <img src="../img/debugToolbar.png" style="display:block; margin: 0 auto;">
 
-## Quick Wrap
+## Debugging and profiling
 
->- Debugging and profiling is an important part of advanced programming.
+Debugging and profiling are important parts of advanced programming.
 
->- Regardless of expertise, one should desire to make code as general and reproducible as possible.
+One should desire to make code as general and reproducible as possible.
 
->- RStudio makes the process more interactive and flexible.
+- Regardless of expertise!
+
+RStudio makes the process more interactive and flexible.

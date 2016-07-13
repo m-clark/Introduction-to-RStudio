@@ -19,7 +19,7 @@ output: .
 
 ## Overview
 
-RStudio offers the ability to integrate <span class="emph">version control</span> into your project.
+RStudio can integrate <span class="emph">version control</span> into your project.
 
   - Subversion
   - Git
@@ -34,10 +34,10 @@ At its most basic, it is just a way to manage changes.
 
 Especially useful when collaborating.
 
-  - Keep track of who is making changes and what they are changing
-  - Revert changes back to an earlier version
-  - Merging multiple copies of a document into one
-  - Branched development
+- Track of who is making changes and what they are changing
+- Revert changes back to an earlier version
+- Merging multiple copies of a document into one
+- Branched development
 
 
 ## Git
@@ -57,11 +57,11 @@ Public vs. private repositories
 
 ## GitHub
 
-GitHub is a web-based hosting services that allows you to upload your Git repository.
+GitHub is a web-based hosting services for Git repositories.
 
-Essentially a social Network for software and other developers.
+Also a social Network for software and other developers.
 
-<img src="../img/octocat.png" style="display:block; margin: 0 auto; width:50%">
+<img src="../img/octocat.png" style="display:block; margin: 0 auto; width:40%">
 
 
 ## Process (Briefly)
@@ -73,17 +73,17 @@ Essentially a social Network for software and other developers.
 
 ## GUI vs. the Shell
 
-RStudio makes it easy to commit, push, pull, revert, check diffs etc.
+RStudio makes it easy to commit, push, pull, revert, etc.
 
 If you need other things, you can access the Git shell directly
 
 <img src="../img/commitsndiffs.png" style="display:block; margin: 0 auto; width:50%">
 
 
-## Quick Wrap
+## Version Control
 
 RStudio makes it easy to integrate version control into your project.
 
-You have nothing to lose by keeping track of files and the changes that have been made to them.
+You have nothing to lose by keeping track of changes to files.
 
-This is especially useful when collaborating.
+This is *especially* useful when collaborating.

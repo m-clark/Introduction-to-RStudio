@@ -19,9 +19,11 @@ output:
 
 ## Customization
 
-RStudio allows one to customize various aspects of how it looks and how you interact with it.
+Customize various aspects of how RStudio 
+  - How it looks 
+  - How you interact with it.
 
-In addition, these customizations can be specific to all RStudio sessions or for a particular project you're working on.
+Can apply to all RStudio sessions or for a particular project.
 
 - Tools/Global Options
 - Tools/Project Options
@@ -29,9 +31,9 @@ In addition, these customizations can be specific to all RStudio sessions or for
 
 ## Customization
 
-As a starting point, one would want to maybe change the look of it.
+Start with the looks:
 
-- Code look, indentation, highlighting etc.
+- Code: indentation, highlighting etc.
 - Window pane locations
 
 

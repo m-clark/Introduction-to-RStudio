@@ -11,14 +11,6 @@ output:
     css: workshop.css
 ---
 
-##
-
-<div style='text-align: center; font-size:32'>
-<h1>Overview<h1>
-<img src='../img/RMarkdownOutputFormatstrans.png' style="width:50%">
-</div>
-
-
 
 ##
 
@@ -33,20 +25,17 @@ output:
 
 Base R is an extremely powerful tool. However...
 
-The syntax editor in Base R is a simple text editor and nothing more.
+The syntax editor in Base R is just a simple text editor.
 
-You should use something more efficient and easy to use.
+Rstudio is relatively more efficient and easy to use.
 
-Options:
+There are actually many options:
 
 - RStudio
-- Emacs
-- Vim
-- Various others
-
-Note however, there is an Emacs (and Vim) mode within RStudio.
-
-
+- General text editors like Notepad++, Sublime, Vim
+- Other R-based text editors e.g. Emacs Speaks Statistics
+- Other R-based IDE options e.g. Architect
+- Other IDEs with R functionality, e.g. Eclipse, Visual Studio
 
 ## Overview
 
@@ -78,4 +67,5 @@ RStudio is also an excellent tool for reproducible research.
 - Package building and freezing
 - Document generation
 
-In short, you can go from data import to (modern, web-based) publication and replication.
+
+<img src="../img/data2pres.png" style="display:block; margin: 0 auto; width:40%">

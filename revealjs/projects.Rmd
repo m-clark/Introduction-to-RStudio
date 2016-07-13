@@ -19,11 +19,11 @@ output:
 
 ## Projects
 
-<span class="emph">Projects</span> provide a self-contained ecosystem within which to work.
+<span class="emph">Projects</span> provide a self-contained ecosystem to work in.
 
-- Projects have their their own working directory, workspace, etc.
+- Have their own working directory, workspace, etc.
 
-If you have multiple projects, you can easily jump between them.
+You can easily jump between multiple projects.
 
 - Without losing your place
 
@@ -34,9 +34,7 @@ File/New Project
 
 <div style='text-align:center;'><img src="../img/project1.png", style="width: 50%;"/></div>
 
-Usually you'll select new, but you'll want to note the other options.
-
-- We'll talk about version control later.
+We'll talk about version control later.
 
 
 ## Projects
@@ -47,4 +45,6 @@ You can have multiple projects running at the same time
 
 - i.e. multiple RStudio instances
 
-Projects can be seen as a first step in getting more organized, more reproducible etc.
+Help you get more <span class="emph">***organized***</span>.
+
+Help you get more <span class="emph">***reproducible***</span>.

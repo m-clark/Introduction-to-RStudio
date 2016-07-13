@@ -79,10 +79,14 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 
 ## Summary
 
-RStudio wants to make a lot of common processes easy for you.
+RStudio can enhance and accelerate your R experience.
 
-This goes beyond scripting, and can serve you from the beginning of a project to whatever ends you take it.
+*Not just for scripting!*
+
+It can serve you from the beginning of a project to whatever ends you take it.
 
 
-* Special thanks to Seth Berry for load of help with the content!
+
+<br><br><br>
+*Special thanks to Seth Berry @ Notre Dame for loads of help with the content!
 

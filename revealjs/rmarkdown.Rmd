@@ -17,37 +17,64 @@ output: .
 <div style='text-align: center; font-size:32'><h1>Rmarkdown<h1></div>
 
 
-## What is R?
 
+##
+
+<div style='text-align: center; font-size:32'>
+<h1>Overview<h1>
+<img src='../img/RMarkdownOutputFormatstrans.png' style="width:50%">
+</div>
+
+
+
+## What is R?
+<div class="col2" style='font-size:75%'>
 R is fast becoming a general programming environment rather than just a statistical one.
 
-<span class="emph">Markdown</span> is a language that allows for easier web-based documentation.
+<span class="emph">Markdown</span> is a markup language. 
 
-- Not necessary to know html
+- Allows for easier web-based documentation.
+
+- Not necessary to know html.
+- Lots of things will use it.
+- <span class="emph">Rmarkdown</span> is a flavor.
+<br><br>
 
 Now one can intermingle R with markdown, <span class="emph">html</span>, <span class="emph">css</span>, <span class="emph">JavaScript</span>, <span class="emph">$\LaTeX$</span> and others resulting in a variety of products.
 
+<br><br>
+<img src="../img/Markdown-mark.svg" style="display:block; margin: 0 auto;">
+</div>
 
 ## Rmarkdown
 
-- html, pdf, doc
+Rstudio and Rmarkdown makes it easy to construct:
+
+- html, pdf, MS Word documents
 - presentations (like this one)
 - dashboards
 - notebooks
 - websites
 - other publications
 
-<span class="emph">*Literate programming*</span>
+<div style='text-align:center'>
 
-<span class="emph">*Reproducible research*</span>
+<span class="emph" style="font-variant:small-caps; font-size:125%; text-align:center">*Literate programming!*</span>
+
+<span class="emph" style="font-variant:small-caps; font-size:125%">*Reproducible research!*</span>
+</div>
+
 
 ## Example
 
-File/New/R Markdown...
+R <span class="emph">chunks</span> are interspersed throughout the Rmd file.
 
-Or many of the others too.
+Rmarkdown documents combine:
 
-R <span class="emph">chunks</span> are interspersed throughout the Rmd file, combining code, plain text, markdown and possibly others.
+- code
+- plain text
+- markdown 
+- other
 
 ```{r, eval=FALSE}
 print("This is an R chunk, in a slide, of the presentation you're looking at!")
@@ -59,8 +86,14 @@ print("This is an R chunk, in a slide, of the presentation you're looking at!")
 
 ## Rmarkdown
 
-Once your file is ready, <span class="emph">knit</span> the document into the format your want.
+Once ready, <span class="emph">knit</span> the document into the format your want.
 
 - Ctrl/Cmd-Shft-K
 
-An Rmarkdown workshop will be given in the future for more details.
+An Rmarkdown workshop will be given with more details.
+
+## Examples
+
+[m-clark.github.io/docs/sem/](http://m-clark.github.io/docs/sem/)
+
+[m-clark.github.io/docs/IntroBayes.html](http://m-clark.github.io/docs/IntroBayes.html)
