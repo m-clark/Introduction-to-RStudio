@@ -58,3 +58,39 @@ pre {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
     /*max-width: 500px;*/
 }
+
+
+.reveal .footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 0.5em;
+}
+
+.col2 {
+  columns: 2 200px;         /* number of columns and width in pixels*/
+   /*font-size: 50%;*/      /* ignored, but can do in the div style within a slide*/
+  /*font-size: 20pt;*/
+  -webkit-columns: 2 200px; /* chrome, safari */
+  -moz-columns: 2 200px;    /* firefox */
+}
+.col3 {
+  columns: 3 100px;
+  /*font-size: 16pt;*/
+  -webkit-columns: 3 100px;
+  -moz-columns: 3 100px;
+}
+
+
+/* none of the following seemed to do much*/
+.title {
+  text-align: center;
+  font-variant: small-caps;
+  margin: 0 auto;
+
+/*  background-image: url('img/CSCAR.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
