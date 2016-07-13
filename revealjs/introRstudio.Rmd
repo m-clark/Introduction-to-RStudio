@@ -1,10 +1,11 @@
 ---
-title: "Getting More from RStudio"
+title: <span style="font-size:150%; font-variant:small-caps; ">Getting More from RStudio</span>
 author: |
-  | <span style="size:8">Michael Clark</span>
-  | Statistician Lead
-  | Consulting for Statistics, Computing and Analytics Research
-  | <span style="color:'#00274c'">Advanced Research Computing</span>
+  <div class="title"><span style="font-size:150%; font-variant:small-caps; ">Michael Clark</span><br>
+  <span style="font-size:75%; margin: 0 auto;">Statistician Lead</span> <br> <br>
+  <img src="../img/CSCAR.png" style="display:block; width:75%; margin: 0 auto; "> <br>
+  <img src="../img/ARC.png" style="display:block; width:50%; margin: 0 auto; "> </div>
+
 date: "`r Sys.Date()`"
 output: 
   revealjs::revealjs_presentation:
@@ -24,7 +25,11 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=120), fig.align = 'center')
 ```
-<div style='text-align: center;'><img src='../img/rstudioLogo.png'></div>
+
+
+##
+
+<img src='../img/rstudiologowhite.png' style="display:block; margin: 0 auto; width:40%">
 
 ```{r, child = 'overview.Rmd'}
 ```
