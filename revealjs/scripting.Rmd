@@ -85,7 +85,7 @@ Knowing just a dozen shortcuts could <span class="emph">*save a lot of time*</sp
 
 You can customize them however you want.
 
-Mac users: most of these would use Cmd and Option rather than Ctrl and Alt
+Mac users: most use Cmd and Opt rather than Ctrl and Alt
 
 
 ## Snippets
@@ -121,6 +121,9 @@ apply(array, margin, ...)
 
 <img src='../img/snippet2.png' style='width:150%; height:200%'>
 
+## Snippets
+
+<img src='../img/snippets_list.png' style='width:150%; height:200%'>
 
 ## Code Diagnostics
 

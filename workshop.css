@@ -1,15 +1,15 @@
 .emph {
-  color: #ff5503;
+  color: #a52588; /* #375282 */
   font-weight: 600;
 }
 
 .pack {
-  color: #1e90ff;  /*dodgerblue*/
+  color: #136966;  
   font-weight: 600;
 }
 
 .func {
-  color: #C93312;  /*darkred*/
+  color: #C93312;  
   font-weight: 600;
 }
 
@@ -18,9 +18,24 @@
   font-weight: 500;
 }
 
-a {
-  color: #ff5503;
+body {
+  background-color: #fffff8;   /* original moon 002b36 */
+  background: #fffff8;
 }
+
+.reveal h1, .reveal h2 {
+  color: #81A9D7;  /* RStudio blue*/
+}
+
+a {
+  color: #A52588;
+}
+
+p {
+  color: #5b7575;   /*original moon theme #93a1a1 */ 
+}
+
+
 
 .resize{
   width: 400px;
@@ -50,10 +65,11 @@ pre {
   display: block;
   text-align: left;
   margin: 0 0 0 1em; 
+  color:  #5b7575;
 }
 
 .reveal section img { 
-    background: #002b36;                      /*theme background color: https://github.com/rstudio/revealjs/tree/master/inst/reveal.js-3.2.0/css/theme*/
+    background: #fffff8;                      /*#002b36 moontheme background color: https://github.com/rstudio/revealjs/tree/master/inst/reveal.js-3.2.0/css/theme*/
     border: 0;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
     /*max-width: 500px;*/

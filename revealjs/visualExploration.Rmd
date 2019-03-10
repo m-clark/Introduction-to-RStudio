@@ -90,7 +90,7 @@ g <- list(
   bgcolor='rgba(0,0,0,0)'
 )
 
-plot_ly(df, lat = lat, lon = long, text = hover, color = cnt, marker=m, 
+plot_ly(df, lat = ~lat, lon = ~long, text = ~hover, color = ~cnt, marker=m, 
         type = 'scattergeo', locationmode = 'USA-states', mode = 'markers', colors='RdBu',
          width=1000) %>%
   layout(title = 'Most trafficked US airports<br>(Hover for airport)', geo = g,

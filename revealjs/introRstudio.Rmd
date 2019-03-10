@@ -1,10 +1,7 @@
 ---
 title: <span style="font-size:150%; font-variant:small-caps; ">Getting More from RStudio</span>
 author: |
-  <div class="title"><span style="font-size:150%; font-variant:small-caps; ">Michael Clark</span><br>
-  <span style="font-size:75%; margin: 0 auto;">Statistician Lead</span> <br> <br>
-  <img src="../img/CSCAR.png" style="display:block; width:75%; margin: 0 auto; "> <br>
-  <img src="../img/ARC.png" style="display:block; width:50%; margin: 0 auto; "> </div>
+  <div class="title"><span style="font-size:150%; font-variant:small-caps; color: #eee8d5 ">Michael Clark</span><br><br></div>
 
 date: "`r Sys.Date()`"
 output: 
@@ -31,7 +28,7 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 
 ##
 
-<img src='../img/rstudiologowhite.png' style="display:block; margin: 0 auto; width:40%">
+<img src='../img/RStudio-Logo-Blue-Gray-250.png' style="display:block; margin: 0 auto; width:40%">
 
 ```{r, child = 'overview.Rmd'}
 ```

@@ -22,9 +22,9 @@ output:
 Customize various aspects of how RStudio 
 
   - How it looks 
-  - How you interact with it.
+  - How you interact with it
 
-Can apply to all RStudio sessions or for a particular project.
+Can apply to all RStudio sessions or for a particular project
 
 - Tools/Global Options
 - Tools/Project Options

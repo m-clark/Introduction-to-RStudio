@@ -16,7 +16,7 @@ output:
 
 <div style='text-align: center; font-size:32'>
 <h1>Overview<h1>
-<img src='../img/RStudio.png'>
+<img src='../img/RStudio-Logo-Blue-Gray-250.png'>
 </div>
 
 
@@ -27,7 +27,7 @@ Base R is an extremely powerful tool. However...
 
 The syntax editor in Base R is just a simple text editor.
 
-Rstudio is relatively more efficient and easy to use.
+RStudio is relatively more efficient and easy to use.
 
 There are actually many options:
 

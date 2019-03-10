@@ -19,11 +19,11 @@ output:
 
 ## Projects
 
-<span class="emph">Projects</span> provide a self-contained ecosystem to work in.
+<span class="emph">Projects</span> provide a self-contained ecosystem to work in
 
 - Have their own working directory, workspace, etc.
 
-You can easily jump between multiple projects.
+You can easily jump between multiple projects
 
 - Without losing your place
 
@@ -32,7 +32,8 @@ You can easily jump between multiple projects.
 
 File/New Project
 
-<div style='text-align:center;'><img src="../img/project1.png", style="width: 50%;"/></div>
+<div style='text-align:center;'><img src="../img/project1.png" style='width: 50%;'/></div>
+
 
 We'll talk about version control later.
 
